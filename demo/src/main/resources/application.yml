@@ -1,0 +1,17 @@
+server:
+  port: 7000
+
+spring:
+  output:
+    ansi:
+      enabled: always
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp 
+
+logging:
+  level:
+     '[com.example.demo]': DEBUG
+
+
